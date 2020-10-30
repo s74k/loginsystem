@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(sfondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content{
+    width:20%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50px;
+    background-color: black;
+    opacity: 0.8;
+}   
+
+
+p{
+    font-weight: bold;
+    font-size: 1cm;
+    background-image: linear-gradient(to left, #624180, thistle, #8f7e1d);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.content input[type="email"]{
+    border: 0;
+    background: none;
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+    color: white;
+    size: 1cm;
+}
+
+.content input[type="password"]{
+    border: 0;
+    background: none;
+    border-bottom: 2px solid white;
+    margin-left: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.content button{
+    border: 0;
+    background-color: white;
+    opacity: 0.3;
+    border-radius: 10px;
+}
+
+.content input[type="submit"]{
+    border: 0;
+    background-color: thistle;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
